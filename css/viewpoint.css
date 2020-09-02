@@ -1,0 +1,38 @@
+/* VIEWpoint-specfic styles */
+
+/* TODO: can we define colours in one place and use aliases? */
+
+/* Use VIEWpoint colours (orange and yellow) for the buttons.
+   TODO: Not sure if the logo matches these colours but it's on a different
+   background anyway... */
+.btn-primary {
+    background-color: #FF671D;
+    border-color: #FF671D;
+}
+.btn-primary:hover {
+    background-color: #ffc56d;
+    border-color: #ffc56d;
+}
+
+/* We have to use !important here because otherwise we don't override the original.
+   This is yucky. */
+.bg-primary {
+    background-color: #d9d8d6 !important;
+}
+
+/* This controls the header and footer colours. Again we seem to need !important :-( */
+.bg-dark {
+    background-color: #4d5858 !important;
+}
+
+.text-viewpoint-header {
+    color: #4d5858;
+}
+
+.h1 .h2 {
+    color: #4d5858;
+}
+
+.contact-us {
+    color: #4d5858;
+}
