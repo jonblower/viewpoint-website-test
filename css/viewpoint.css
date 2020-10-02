@@ -36,3 +36,9 @@
 .contact-us {
     color: #4d5858;
 }
+
+/* Use SimSun font for all Chinese characters */
+:lang(zh-cn) 	{
+    font-family: SimSun;
+    font-size: 120%;
+    }
