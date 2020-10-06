@@ -40,5 +40,5 @@
 /* Use SimSun font for all Chinese characters */
 :lang(zh-cn) 	{
     font-family: SimSun;
-    font-size: 120%;
+    /*font-size: 120%;*/
     }
